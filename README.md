@@ -1,3 +1,3 @@
 # QuickReplyPCFControl
 
-https://wordpress.com/block-editor/post/dhina.org/1239
+https://dhina.org/2020/01/08/quick-reply-pcf-control/
