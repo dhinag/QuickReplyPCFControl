@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DG.PC" constructor="QuickReplyComponent" version="1.0" display-name-key="Quick Reply Text Control" description-key="This control adds the canned message capability to the text control" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+<property name="QuickReplyText" display-name-key="QuickReplyText" description-key="Quick Reply Text" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+      <feature-usage>
+			<uses-feature name="WebAPI" required="true" />
+		</feature-usage>
+  </control>
+</manifest>
